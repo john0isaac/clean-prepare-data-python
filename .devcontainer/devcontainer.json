@@ -2,6 +2,9 @@
 {
 	"name": "clean-prepare-data-python",
 	"image": "mcr.microsoft.com/devcontainers/python:3.10-bullseye",
+	"hostRequirements": {
+    		"cpus": 4
+  	},
 
 	// Configure tool-specific properties.
 	"customizations": {
